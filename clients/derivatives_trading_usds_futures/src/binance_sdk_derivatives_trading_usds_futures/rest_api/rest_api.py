@@ -2273,7 +2273,7 @@ class DerivativesTradingUsdsFuturesRestAPI:
 
         return self._tradeApi.change_position_mode(dual_side_position, recv_window)
 
-    def current_all_open_orders(
+    def current_all_open_orders_modify(
         self,
         symbol: Optional[str] = None,
         recv_window: Optional[int] = None,
